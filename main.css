@@ -1,0 +1,85 @@
+* {
+    border:none;
+    padding:0;
+    margin:0;
+
+}
+
+#container {
+    text-align: center;
+    padding: 2% 0 0 0 ;
+}
+
+form {
+    display:inline-block;
+    border: solid 2px black;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 1rem 2rem 0;
+}
+
+#activities {
+    border: solid 2px black;
+    width: 70%;
+    height: 20rem;
+    margin: 0 auto;
+    overflow:auto;
+    background-color: #dddddd;
+    border-radius: 1rem;
+}
+
+.lose {
+    color:red;
+    margin:0;
+}
+
+.win {
+    color:green;
+    margin:0;
+
+}
+
+#reset {
+    border:0;
+    margin:2rem 0 0 0;
+
+}
+#farm {
+    background: -webkit-linear-gradient(yellow, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow, orange); /* Standard syntax */
+}
+#cave {
+    background: -webkit-linear-gradient(turquoise, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(turquoise, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(turquoise, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(turquoise, #101010); /* Standard syntax */
+}
+#house {
+    background: -webkit-linear-gradient(lavender, indigo); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lavender, indigo); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lavender, indigo); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lavender, indigo); /* Standard syntax */
+}
+#casino {
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+}
+
+input {
+    background: -webkit-radial-gradient(aqua, indigo); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(aqua, indigo); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(aqua, indigo); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(aqua, indigo); /* Standard syntax */
+    box-shadow: .5rem .5rem .4rem #111111;
+}
+
+#gold {
+    background-color: #A0EA7B;
+    margin: 0 auto 2rem auto;
+    width: 30rem;
+    border: 2px solid black;
+}
